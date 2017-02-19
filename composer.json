@@ -1,7 +1,7 @@
 {
     "name": "Pablumfication/LaravelSiftScience",
     "type": "library",
-    "description": ":package_description",
+    "description": "Laravel Wrapper for the Sift Science API",
     "keywords": [
         "Pablumfication",
         "LaravelSiftScience"
@@ -10,9 +10,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Mark Davidson",
+            "email": "mark@4each.co.uk",
+            "homepage": "https://pablumfication.co.uk",
             "role": "Developer"
         }
     ],
