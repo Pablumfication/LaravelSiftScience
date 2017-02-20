@@ -13,7 +13,7 @@ class LaravelSiftScienceServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->bind('LaravelSiftScience', \Pablumfication\LaravelSiftScience\SiftScienceService::class);
     }
 
     /**
@@ -23,6 +23,19 @@ class LaravelSiftScienceServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/laravel-sift-science.php',
+            'laravel-sift-science'
+        );
+    }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
+    public function provides()
+    {
+        return  [];
     }
 }
