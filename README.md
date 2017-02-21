@@ -29,7 +29,7 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require pablumfication/LaravelSiftScience
+$ composer require pablumfication/laravel-sift-science
 ```
 
 ## Usage
@@ -66,17 +66,17 @@ If you discover any security related issues, please email mark@4each.co.uk inste
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/pablumfication/LaravelSiftScience.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pablumfication/laravel-sift-science.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/pablumfication/LaravelSiftScience/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pablumfication/LaravelSiftScience.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/pablumfication/LaravelSiftScience.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/pablumfication/LaravelSiftScience.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pablumfication/laravel-sift-science/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pablumfication/laravel-sift-science.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pablumfication/laravel-sift-science.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pablumfication/laravel-sift-science.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/pablumfication/LaravelSiftScience
-[link-travis]: https://travis-ci.org/pablumfication/LaravelSiftScience
-[link-scrutinizer]: https://scrutinizer-ci.com/g/pablumfication/LaravelSiftScience/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/pablumfication/LaravelSiftScience
-[link-downloads]: https://packagist.org/packages/pablumfication/LaravelSiftScience
+[link-packagist]: https://packagist.org/packages/pablumfication/laravel-sift-science
+[link-travis]: https://travis-ci.org/pablumfication/laravel-sift-science
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pablumfication/laravel-sift-science/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pablumfication/laravel-sift-science
+[link-downloads]: https://packagist.org/packages/pablumfication/laravel-sift-science
 [link-author]: https://github.com/pablumfication
 [link-contributors]: ../../contributors
