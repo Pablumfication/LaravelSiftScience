@@ -7,8 +7,9 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This package provides intergration with the Sift Science API. 
+
+The package simply provides a LaravelSiftScience facade that acts as a wrapper to the SiftScience/sift-php package.
 
 ## Structure
 
