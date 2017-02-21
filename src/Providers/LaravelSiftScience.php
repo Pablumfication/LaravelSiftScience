@@ -1,10 +1,10 @@
 <?php
 
-namespace Pablumfication\LaravelSiftScience;
+namespace Pablumfication\LaravelSiftScience\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelSiftScienceServiceProvider extends ServiceProvider
+class LaravelSiftScience extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
@@ -13,7 +13,7 @@ class LaravelSiftScienceServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind('LaravelSiftScience', \Pablumfication\LaravelSiftScience\SiftScienceService::class);
+        $this->app->bind('LaravelSiftScience', \Pablumfication\LaravelSiftScience\Services\SiftScienceService::class);
     }
 
     /**
@@ -24,7 +24,7 @@ class LaravelSiftScienceServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/laravel-sift-science.php',
+            __DIR__ . '/../../config/laravel-sift-science.php',
             'laravel-sift-science'
         );
     }

@@ -1,10 +1,10 @@
 <?php 
 
-namespace Pablumfication\LaravelSiftScience;
+namespace Pablumfication\LaravelSiftScience\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class SiftScienceFacade extends Facade
+class LaravelSiftScience extends Facade
 {
     /**
      * Return facade accessor.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pablumfication\LaravelSiftScience;
+namespace Pablumfication\LaravelSiftScience\Services;
 
 class SiftScienceService
 {
