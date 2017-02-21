@@ -7,8 +7,6 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Mark Davidson``` ```pablumfication``` ```https://pablumfication.co.uk``` ```mark@4each.co.uk``` ```pablumfication``` ```LaravelSiftScience``` ```Laravel Wrapper for the Sift Science API``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
 PSRs you support to avoid any confusion with users and contributors.
 
@@ -36,8 +34,9 @@ $ composer require pablumfication/LaravelSiftScience
 ## Usage
 
 ``` php
-$skeleton = new Pablumfication\LaravelSiftScience();
-echo $skeleton->echoPhrase('Hello, League!');
+use LaravelSiftScience;
+
+LaravelSiftScience::track('$create_account', ['$user_id' => 'username']);
 ```
 
 ## Change log
@@ -60,8 +59,7 @@ If you discover any security related issues, please email mark@4each.co.uk inste
 
 ## Credits
 
-- [Mark Davidson][link-author]
-- [All Contributors][link-contributors]
+- [Mark Davidson][https://pablumfication.co.uk]
 
 ## License
 
