@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This package provides intergration with the Sift Science API. 
+This package provides integration with the Sift Science API. 
 
 The package simply provides a LaravelSiftScience facade that acts as a wrapper to the SiftScience/sift-php package.
 
