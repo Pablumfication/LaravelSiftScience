@@ -13,7 +13,10 @@ class LaravelSiftScience extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind('LaravelSiftScience', \Pablumfication\LaravelSiftScience\Services\SiftScienceService::class);
+        $this->app->bind(
+            'LaravelSiftScience',
+            \Pablumfication\LaravelSiftScience\Services\SiftScienceService::class
+        );
     }
 
     /**
@@ -36,6 +39,6 @@ class LaravelSiftScience extends ServiceProvider
      */
     public function provides()
     {
-        return  [];
+        return [];
     }
 }

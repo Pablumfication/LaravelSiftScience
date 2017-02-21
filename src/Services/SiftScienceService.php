@@ -19,13 +19,15 @@ class SiftScienceService
         $this->version = config('laravel-sift-science.version');
 
         if (!$this->api_key || !$this->account_id) {
-            throw new \InvalidArgumentException('Please set SIFT_SCIENCE_API_KEY and SIFT_SCIENCE_ACCOUNT_ID environment variables.');
+            throw new \InvalidArgumentException(
+                'Please set SIFT_SCIENCE_API_KEY and SIFT_SCIENCE_ACCOUNT_ID environment variables.'
+            );
         }
 
-        $this->siftclient = new \SiftClient(array(
+        $this->siftclient = new \SiftClient([
             'api_key' => $this->api_key,
             'account_id' => $this->account_id,
-        ));
+        ]);
     }
 
     /**
