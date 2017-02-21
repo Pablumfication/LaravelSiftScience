@@ -1,5 +1,5 @@
 {
-    "name": "Pablumfication/laravel-sift-science",
+    "name": "pablumfication/laravel-sift-science",
     "type": "library",
     "description": "Laravel Wrapper for the Sift Science API",
     "keywords": [
@@ -7,7 +7,7 @@
         "sift science",
         "api"
     ],
-    "homepage": "https://github.com/Pablumfication/laravel-sift-science",
+    "homepage": "https://github.com/pablumfication/laravel-sift-science",
     "license": "MIT",
     "authors": [
         {
